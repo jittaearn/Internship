@@ -147,6 +147,154 @@ body {
     border-radius: 10px;
 }
 
+#day {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#month {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#year {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#age {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#race {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#nationality {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#religion {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#gender {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#genderIcon {
+    height: 32px;
+    border-color: #EBB5C7;
+    background-color: #EBB5C7;
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+#mobile {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#housePhone {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#workPhone {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#next {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#email {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#lineID {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
 #info {
     justify-content: center;
     display: flex;
@@ -156,6 +304,46 @@ body {
     justify-content: center;
     display: flex;
     color:  #572636;
+}
+
+#bankAccount {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#brach {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#accountNumber {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+#lineID {
+    justify-content: right;
+    background-color: white;
+    border-color: #EBB5C7;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding: 0.4rem;
+    width: 100%;
 }
 
 #submit {
