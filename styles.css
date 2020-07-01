@@ -34,6 +34,7 @@ body {
     height: 20px;
     width: auto;
     fill: #E3E2DF;
+    padding-left: 1rem;
 }
 
 #sideBarIcon:hover {
