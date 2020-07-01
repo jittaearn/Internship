@@ -51,9 +51,16 @@ body {
     padding: 1rem;
 }
 
+#headingIcon {
+    height: 35px;
+    width: auto;
+    fill: #5D001E;
+}
+
 #naming {
     background-color: white;
     padding: 1rem;
+    padding-left: 6rem;
 }
 
 #personal_info {
@@ -66,6 +73,14 @@ body {
 
 #sub-topics {
     color: #9A1750;
+    justify-content: center;
+}
+
+#subTopicsIcon {
+    height: 80px;
+    width: auto;
+    fill: #572636;
+    justify-content: center;
 }
 
 #photo {
@@ -81,7 +96,7 @@ body {
 #banking {
     justify-content: center;
     display: flex;
-    color:  #9A1750;
+    color:  #572636;
 }
 
 #submit {
