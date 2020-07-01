@@ -17,7 +17,6 @@ body {
     background-color: #572636;
     color: #E3E2DF;
     padding-top: 5rem;
-    padding-left: 2rem;
     padding-bottom: 5rem;
 }
 
@@ -50,6 +49,7 @@ body {
     font-size: 25px;
     background-color: white;
     padding: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 #headingIcon {
@@ -81,7 +81,6 @@ body {
     height: 80px;
     width: auto;
     fill: #572636;
-    justify-content: center;
 }
 
 #photo {
