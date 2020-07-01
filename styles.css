@@ -47,6 +47,7 @@ body {
 
 #heading {
     font-size: 25px;
+    font-style: bold;
     background-color: white;
     padding: 1rem;
     margin-bottom: 0.2rem;
@@ -88,6 +89,15 @@ body {
     display: flex;
 }
 
+#insert_photo {
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    padding: 5rem;
+    background-color: #F8EFF2;
+    border-radius: 10px;
+}
+
 #info {
     justify-content: center;
     display: flex;
@@ -117,4 +127,11 @@ body {
     margin: 1rem;
     border-radius: 4px;
     padding: 0.5rem;
+}
+
+#copyright {
+    padding: 1rem;
+    background-color: white;
+    color: #9A1750;
+    margin-top: 5rem;
 }
