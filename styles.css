@@ -17,12 +17,27 @@ body {
     background-color: #572636;
     color: #E3E2DF;
     padding-top: 5rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     padding-bottom: 5rem;
 }
 
 #topics {
     padding: 1rem;
+}
+
+#topics:hover {
+    color: #9A1750;
+    background-color: #E3AFBC;
+}
+
+#sideBarIcon {
+    height: 20px;
+    width: auto;
+    fill: #E3E2DF;
+}
+
+#sideBarIcon:hover {
+    color: #9A1750;
 }
 
 #content {
