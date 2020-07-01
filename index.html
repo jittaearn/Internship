@@ -71,12 +71,41 @@
                         ทะเบียนสมาชิก
                         </div>
                     </div> 
-                    <div id="naming" class="row">
-                        ทะเบียนสมาชิก
-                    </div> 
-                    <div id="naming" class="row">
-                        ชื่อ - นามสกุล
-                    </div> 
+                    <form action="/action_page.php">
+                        <div id="naming" class="row">
+                            
+                            <div class="col-2">
+                                <div class="row mt-4" style="justify-content: right; padding-left: 5rem;">
+                                    <label for="registration">ทะเบียนสมาชิก</label>
+                                </div>
+                                <div class="row mt-4" style="justify-content: right; padding-left: 5rem;">
+                                    <label for="name">ชื่อ - นามสกุล</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <input type="text" id="registration" name="registration" placeholder="ทะเบียนสมาชิก">
+                                </div>
+                                <div class="row">
+                                    <input type="text" id="honorifics" name="honorifics" placeholder="คำนำหน้า">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <input type="text" id="name" name="name" placeholder="ชื่อ - นามสกุล">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" id="fname" name="fname" placeholder="ชื่อ">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="lname" name="lname" placeholder="นามสกุล">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form> 
+                    <br>
                     <div id="personal_info" class="row">
                         <div class="col-1"></div>
                         <div class="col-2">
