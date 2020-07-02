@@ -355,7 +355,7 @@ body {
     display: flex;
     background-color: #9A1750;;
     color: white;
-    margin: 1rem;
+    margin: 0.5rem;
     border-radius: 4px;
     padding: 0.5rem;
 }
@@ -365,7 +365,7 @@ body {
     display: flex;
     background-color: white;
     color: #5D001E;
-    margin: 1rem;
+    margin: 0.5rem;
     border-radius: 4px;
     padding: 0.5rem;
 }
