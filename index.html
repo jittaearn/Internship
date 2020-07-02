@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
+    <STYLE>A {text-decoration: none;} </STYLE>
     <body>
         <nav id="navbar" class="navbar navbar-dark">
             <a class="navbar-brand" href="#">Share & Loan</a>
@@ -15,56 +16,70 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="sidebar" class="col-md-auto">
+                    <a href="index.html">
+                        <div id="topics" class="row">
+                            <div class="col-3">
+                                <object type="image/svg+xml" data="pictures/home.svg" class="icon icon-sidebar">
+                                    Home
+                                </object>
+                            </div>
+                            <div class="col-8">
+                                หน้าหลัก
+                            </div>
+                        </div> 
+                    </a>
                     <div id="topics" class="row">
-                        <a href="index.html">
-                            <div id="topics" class="row">
-                                <div class="col-3">
-                                    <img id="sideBarIcon" src="pictures/home.svg" alt="Homepage Icon">
-                                </div>
-                                <div class="col-8">
-                                    หน้าหลัก
-                                </div>
-                            </div> 
-                        </a>
-                    </div> 
-                    <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/folder.svg" alt="Folder Icon">
+                        <object type="image/svg+xml" data="pictures/folder.svg" class="icon icon-sidebar">
+                            Folder
+                        </object>
                         <div class="col">
                         แฟ้มข้อมูล
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/question.svg" alt="Question mark Icon">
+                        <object type="image/svg+xml" data="pictures/question.svg" class="icon icon-sidebar">
+                            Question
+                        </object>
                         <div class="col">
                         สอบถาม
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/stock.svg" alt="Stock Icon">
+                        <object type="image/svg+xml" data="pictures/stock.svg" class="icon icon-sidebar">
+                            Stocks
+                        </object>
                         <div class="col">
                         รายการประจำวันหุ้น-สมาชิก
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/debt.svg" alt="Debt Icon">
+                        <object type="image/svg+xml" data="pictures/debt.svg" class="icon icon-sidebar">
+                            Debt
+                        </object>
                         <div class="col">
                         ราการหนี้ประจำวัน
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/process.svg" alt="Processing Icon">
+                        <object type="image/svg+xml" data="pictures/process.svg" class="icon icon-sidebar">
+                            process
+                        </object>
                         <div class="col">
                         ประมวลผล
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/report.svg" alt="Report Icon">
+                        <object type="image/svg+xml" data="pictures/report.svg" class="icon icon-sidebar">
+                            report
+                        </object>
                         <div class="col">
                         รายงาน
                         </div>
                     </div> 
                     <div id="topics" class="row">
-                        <img id="sideBarIcon" src="pictures/service.svg" alt="Service Icon">
+                        <object type="image/svg+xml" data="pictures/service.svg" class="icon icon-sidebar">
+                            service
+                        </object>
                         <div class="col">
                         สวัสดิการ
                         </div>
@@ -72,14 +87,15 @@
                 </div>
                 <div id="content" class="col">
                     <div id="heading" class="row">
-                        <img id="headingIcon" src="pictures/person_add.svg" alt="Person adding Icon">
+                        <object type="image/svg+xml" data="pictures/person_add.svg" class="iconH iconH-heading">
+                            person_add
+                        </object>
                         <div class="col">
                         ทะเบียนสมาชิก
                         </div>
                     </div> 
                     <form action="/action_page.php">
                         <div id="naming" class="row">
-                            
                             <div class="col-2">
                                 <div class="row mt-4" style="justify-content: right; padding-left: 5rem;">
                                     <label for="registration">ทะเบียนสมาชิก</label>
@@ -117,7 +133,9 @@
                         <a href="personal_info.html">
                             <div id="sub-topics-bg">
                                 <div id="sub-topics" class="row">
-                                    <img id="subTopicsIcon" src="pictures/person.svg" alt="Person Icon" style="width: 120px;">
+                                    <object type="image/svg+xml" data="pictures/person.svg" class="iconST iconST-subtopic" style="width: 120px;">
+                                        person
+                                    </object>
                                 </div>
                                 <div id="sub-topics" class="row">
                                     ข้อมูลส่วนบุคคล
@@ -128,7 +146,9 @@
                             <a href="url">
                                 <div id="sub-topics-bg">
                                     <div id="sub-topics" class="row">
-                                        <img id="subTopicsIcon" src="pictures/work_info.svg" alt="information on work place Icon">
+                                        <object type="image/svg+xml" data="pictures/work_info.svg" class="iconST iconST-subtopic">
+                                            work_info
+                                        </object>
                                     </div>
                                     <div id="sub-topics" class="row">
                                         รายละเอียดหน่วยงาน
@@ -140,7 +160,9 @@
                             <a href="url">
                                 <div id="sub-topics-bg">
                                     <div id="sub-topics" class="row">
-                                        <img id="subTopicsIcon" src="pictures/family.svg" alt="Family Icon">
+                                        <object type="image/svg+xml" data="pictures/family.svg" class="iconST iconST-subtopic">
+                                            family
+                                        </object>
                                     </div>
                                     <div id="sub-topics" class="row">
                                         ครอบครัว/
@@ -155,7 +177,9 @@
                             <a href="url">
                                 <div id="sub-topics-bg">
                                     <div id="sub-topics" class="row">
-                                        <img id="subTopicsIcon" src="pictures/qualification.svg" alt="Personal information Icon">
+                                        <object type="image/svg+xml" data="pictures/qualification.svg" class="iconST iconST-subtopic">
+                                            qualification
+                                        </object>
                                     </div>
                                     <div id="sub-topics" class="row">
                                         คุณสมบัติ
@@ -170,7 +194,9 @@
                             <a href="url">
                                 <div id="sub-topics-bg">
                                     <div id="sub-topics" class="row">
-                                        <img id="subTopicsIcon" src="pictures/house.svg" alt="House Icon">
+                                        <object type="image/svg+xml" data="pictures/house.svg" class="iconST iconST-subtopic">
+                                            house
+                                        </object>
                                     </div>
                                     <div id="sub-topics" class="row">
                                         ที่อยู่
@@ -181,7 +207,9 @@
                         <div class="col-1"></div>
                     </div> 
                     <div id="copyright" class="row">
-                        <img id="sideBarIcon" src="pictures/copyright.svg" alt="copyright Icon" style="padding-right: 1rem;">
+                        <object type="image/svg+xml" data="pictures/copyright.svg" class="iconC iconC-copyright" style="padding-right: 1rem;">
+                            copyright
+                        </object>
                         2020 - In360 Company Ltd. 08/05/2563
                     </div>
                 </div>
