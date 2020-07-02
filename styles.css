@@ -171,6 +171,46 @@ a:link {
     border-radius: 10px;
 }
 
+#choosePhoto {
+    justify-content: center;
+    display: flex;
+    margin: 0.7rem;
+    padding: 0.4rem;    
+    color: #E3E2DF;
+    background-color: #9A1750;
+    border-radius: 4px;
+}
+
+#checkPhoto {
+    justify-content: center;
+    display: flex;
+    margin: 0.7rem;
+    padding: 0.4rem;
+    color: #9A1750;
+    background-color: #F8EFF2;
+    border-radius: 4px;
+}
+
+#choosePhoto:hover {
+    justify-content: center;
+    display: flex;
+    margin: 0.7rem;
+    padding: 0.4rem;    
+    color: #9A1750;
+    background-color: #F8EFF2;
+    border-radius: 4px;
+}
+
+#checkPhoto:hover {
+    justify-content: center;
+    display: flex;
+    margin: 0.7rem;
+    padding: 0.4rem;
+    color: #E3E2DF;
+    background-color: #9A1750;
+    border-radius: 4px;
+}
+
 #citizenID {
     justify-content: center;
     background-color: white;
@@ -394,11 +434,31 @@ a:link {
     padding: 0.5rem;
 }
 
+#submit:hover {
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    color: #5D001E;
+    margin: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
 #cancel {
     justify-content: center;
     display: flex;
     background-color: white;
     color: #5D001E;
+    margin: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+#cancel:hover {
+    justify-content: center;
+    display: flex;
+    background-color: #9A1750;
+    color: white;
     margin: 0.5rem;
     border-radius: 4px;
     padding: 0.5rem;

@@ -180,11 +180,19 @@
                         <div class="col-1"></div>
                     </div> 
                     <div id="personal_info" class="row">
-                        <div id="photo" class="col-4">
+                        <div class="col-4">
                             <div id="insert_photo" class="row ml-1">
-                                <img src="pictures/photo_library.svg" alt="No picture Icon" style="height: 60px;">
+                                <img id="photo" src="pictures/photo_library.svg" alt="No picture Icon" style="height: 60px;">
                             </div>
-                        </div> 
+                            <div id="photo" class="row">
+                                <div id="choosePhoto" class="col-4">
+                                    เลือกรูปภาพ
+                                </div>
+                                <div id="checkPhoto" class="col-4">
+                                    ดูรูปภาพดูรูปภาพ
+                                </div>
+                            </div> 
+                        </div>
                         <div class="col-8">
                             <div class="row">
                                 <div class="col-3">
@@ -438,12 +446,16 @@
                     <div class="row">
                         <div class="col-9">
                         </div>
-                        <div id="cancel" class="col">
-                            ยกเลิก
-                        </div>
-                        <div id="submit" class="col">
-                            บันทึก
-                        </div>
+                        <a id="cancel"  href="url">
+                            <div class="col">
+                                ยกเลิก
+                            </div>
+                        </a>
+                        <a id="submit" href="url">
+                            <div class="col">
+                                บันทึก
+                            </div>
+                        </a>
                         <div class="col-1">
                         </div>
                     </div>
