@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Share and Loan</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <body>
+        <nav id="navbar" class="navbar navbar-dark">
+            <a class="navbar-brand" href="#">Share & Loan</a>
+            <a class="signout" href="signout.html">Signout</a>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="sidebar" class="col-md-auto">
+                    <a href="index.html">
+                        <div id="topics" class="row">
+                            <div class="col-3">
+                                <img id="sideBarIcon" src="pictures/home.svg" alt="Homepage Icon">
+                            </div>
+                            <div class="col-8">
+                                หน้าหลัก
+                            </div>
+                        </div> 
+                    </a>
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/folder.svg" alt="Folder Icon">
+                        <div class="col">
+                        แฟ้มข้อมูล
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/question.svg" alt="Question mark Icon">
+                        <div class="col">
+                        สอบถาม
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/stock.svg" alt="Stock Icon">
+                        <div class="col">
+                        รายการประจำวันหุ้น-สมาชิก
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/debt.svg" alt="Debt Icon">
+                        <div class="col">
+                        ราการหนี้ประจำวัน
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/process.svg" alt="Processing Icon">
+                        <div class="col">
+                        ประมวลผล
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/report.svg" alt="Report Icon">
+                        <div class="col">
+                        รายงาน
+                        </div>
+                    </div> 
+                    <div id="topics" class="row">
+                        <img id="sideBarIcon" src="pictures/service.svg" alt="Service Icon">
+                        <div class="col">
+                        สวัสดิการ
+                        </div>
+                    </div> 
+                </div>
+                <div id="content" class="col">
+                    <div id="heading" class="row">
+                        <img id="headingIcon" src="pictures/person_add.svg" alt="Person adding Icon">
+                        <div class="col">
+                        ทะเบียนสมาชิก
+                        </div>
+                    </div> 
+                    <form action="/action_page.php">
+                        <div id="naming" class="row">
+                            
+                            <div class="col-2">
+                                <div class="row mt-4" style="justify-content: right; padding-left: 5rem;">
+                                    <label for="registration">ทะเบียนสมาชิก</label>
+                                </div>
+                                <div class="row mt-4" style="justify-content: right; padding-left: 5rem;">
+                                    <label for="name">ชื่อ - นามสกุล</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <input type="text" id="registration" name="registration" placeholder="ทะเบียนสมาชิก">
+                                </div>
+                                <div class="row">
+                                    <input type="text" id="honorifics" name="honorifics" placeholder="คำนำหน้า">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <input type="text" id="name" name="name" placeholder="ชื่อ - นามสกุล">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" id="fname" name="fname" placeholder="ชื่อ">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="lname" name="lname" placeholder="นามสกุล">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form> 
+                    <br>
+                    <div id="personal_info" class="row">
+                        <div class="col-1"></div>
+                        <a href="personal_info.html">
+                            <div id="sub-topics-bg">
+                                <div id="sub-topics" class="row">
+                                    <img id="subTopicsIcon" src="pictures/person.svg" alt="Person Icon" style="width: 120px;">
+                                </div>
+                                <div id="sub-topics" class="row">
+                                    ข้อมูลส่วนบุคคล
+                                </div>
+                            </div> 
+                        </a>
+                        <div class="col-2">
+                            <a href="url">
+                                <div id="sub-topics-bg">
+                                    <div id="sub-topics" class="row">
+                                        <img id="subTopicsIcon" src="pictures/work_info.svg" alt="information on work place Icon">
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        รายละเอียดหน่วยงาน
+                                    </div>
+                                </div> 
+                            </a>
+                        </div> 
+                        <div class="col-2">
+                            <a href="url">
+                                <div id="sub-topics-bg">
+                                    <div id="sub-topics" class="row">
+                                        <img id="subTopicsIcon" src="pictures/family.svg" alt="Family Icon">
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        ครอบครัว/
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        ผู้รับผลประโยชน์
+                                    </div>
+                                </div> 
+                            </a>
+                        </div> 
+                        <div class="col-2">
+                            <a href="url">
+                                <div id="sub-topics-bg">
+                                    <div id="sub-topics" class="row">
+                                        <img id="subTopicsIcon" src="pictures/qualification.svg" alt="Personal information Icon">
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        คุณสมบัติ
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        สมาชิกสมทบ
+                                    </div>
+                                </div> 
+                            </a>
+                        </div> 
+                        <div class="col-2">
+                            <a href="url">
+                                <div id="sub-topics-bg">
+                                    <div id="sub-topics" class="row">
+                                        <img id="subTopicsIcon" src="pictures/house.svg" alt="House Icon">
+                                    </div>
+                                    <div id="sub-topics" class="row">
+                                        ที่อยู่
+                                    </div>
+                                </div> 
+                            </a>
+                        </div> 
+                        <div class="col-1"></div>
+                    </div> 
+                    <div id="personal_info" class="row">
+                        <div id="photo" class="col-4">
+                            <div id="insert_photo" class="row ml-1">
+                                <img src="pictures/photo_library.svg" alt="No picture Icon" style="height: 60px;">
+                            </div>
+                        </div> 
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label for="citizenID">หมายเลขบัตรประชาชน</label>
+                                </div>
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div> 
+                                <div class="col">
+                                    <input type="text" id="citizenID" name="citizenID">
+                                </div>
+                                <div class="col"> 
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                    <label for="name">วัน</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="day" name="day" placeholder="00">
+                                </div> 
+                                <div class="col-1">
+                                    <label for="name">เดือน</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="month" name="month" placeholder="00">
+                                </div>
+                                <div class="col-1">
+                                    <label for="name">ปี</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="year" name="year" placeholder="19xx">
+                                </div> 
+                                <div class="col-1">
+                                    <label for="name">อายุ</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="age" name="age" placeholder="19xx">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                    <label for="race">เชื้อชาติ</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="race" name="race" placeholder="ไทย">
+                                </div> 
+                                <div class="col-1">
+                                    <label for="nationality">สัญชาติ</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="nationality" name="nationality" placeholder="ไทย">
+                                </div>
+                                <div class="col-1">
+                                    <label for="religion">ศาสนา</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" id="religion" name="religion" placeholder="พุทธ">
+                                </div> 
+                                <div class="col-1">
+                                    <label for="gender">เพศ</label>
+                                </div>
+                                <div class="col-2">
+                                    <!-- <input type="image" id="gender" name="gender"> -->
+                                    <img id="genderIcon" src="pictures/male.svg" alt="Male Icon">
+                                    <img id="genderIcon" src="pictures/Female.svg" alt="Female Icon">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label for="mobile">โทรศัพท์มือถือ</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="mobile" name="mobile">
+                                </div> 
+                                <div class="col-2">
+                                    <label for="housePhone">โทรศัพท์ (บ้าน)</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="housePhone" name="housePhone">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label for="workPhone">โทรศัพท์ (ทำงาน)</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="workPhone" name="workPhone">
+                                </div> 
+                                <div class="col-2">
+                                    <label for="next">ต่อ</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="next" name="next">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-2">
+                                    <label for="email">อีเมลล์</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="email" name="email" placeholder="error@mail.com">
+                                </div> 
+                                <div class="col-2">
+                                    <label for="lineID">ไลน์ไอดี</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" id="lineID" name="lineID"> 
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="banking" class="row">
+                        <div id="personal_info" class="col">
+                            <div class="row" style="justify-content: center;">
+                                บัญชีสมาชิก
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="bankAccount">ธนาคาร</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="bankAccount" name="bankAccount" placeholder="ธนาคารแห่งประเทศไทย">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="branch">สาขา</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="brach" name="brach" placeholder="House Cheque">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="accountNumber">เลขบัญชี</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="accountNumber" name="accountNumber">
+                                </div> 
+                            </div>
+                        </div> 
+                        <div id="personal_info" class="col">
+                            <div class="row" style="justify-content: center;">
+                                โอนเงินกู้
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="bankAccount">ธนาคาร</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="bankAccount" name="bankAccount" placeholder="ธนาคารแห่งประเทศไทย">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="branch">สาขา</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="brach" name="brach" placeholder="House Cheque">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="accountNumber">เลขบัญชี</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="accountNumber" name="accountNumber">
+                                </div> 
+                            </div>
+                        </div>
+                        <div id="personal_info" class="col">
+                            <div class="row" style="justify-content: center;">
+                                ปันผล
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="paymentInfo">วิธีการจ่าย</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="paymentInfo" name="paymentInfo" placeholder="เงินสด">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="bankAccount">ธนาคาร</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="bankAccount" name="bankAccount" placeholder="ธนาคารแห่งประเทศไทย">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="branch">สาขา</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="brach" name="brach" placeholder="House Cheque">
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col ml-1">
+                                    <label for="accountNumber">เลขบัญชี</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" id="accountNumber" name="accountNumber">
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                        </div>
+                        <div id="cancel" class="col">
+                            ยกเลิก
+                        </div>
+                        <div id="submit" class="col">
+                            บันทึก
+                        </div>
+                        <div class="col-1">
+                        </div>
+                    </div>
+                    <div id="copyright" class="row">
+                        <img id="sideBarIcon" src="pictures/copyright.svg" alt="copyright Icon" style="padding-right: 1rem;">
+                        2020 - In360 Company Ltd. 08/05/2563
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
