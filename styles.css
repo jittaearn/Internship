@@ -313,6 +313,7 @@ body {
     border-radius: 4px;
     padding-left: 1rem;
     padding: 0.4rem;
+    margin: 0.2rem;
     width: 100%;
 }
 
@@ -323,6 +324,7 @@ body {
     border-radius: 4px;
     padding-left: 1rem;
     padding: 0.4rem;
+    margin: 0.2rem;
     width: 100%;
 }
 
@@ -333,16 +335,18 @@ body {
     border-radius: 4px;
     padding-left: 1rem;
     padding: 0.4rem;
+    margin: 0.2rem;
     width: 100%;
 }
 
-#lineID {
+#paymentInfo {
     justify-content: right;
     background-color: white;
     border-color: #EBB5C7;
     border-radius: 4px;
     padding-left: 1rem;
     padding: 0.4rem;
+    margin: 0.2rem;
     width: 100%;
 }
 
