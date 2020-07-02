@@ -10,6 +10,15 @@ a:link {
     text-decoration: none;
   }
 
+a.svg {
+    position: relative;
+    display: inline-block;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
 #navbar {
     background-color: #461F2C;
     color: #E3E2DF;
@@ -18,6 +27,19 @@ a:link {
 
 .signout {
     color: #EE4C7C;
+}
+
+.btn{
+    font-size: 14px;
+    color: #E3E2DF;
+    border-style: ridge;
+    height: 100%;
+    width: 100%;
+}
+
+.btn:hover{
+    color: #EE4C7C;
+    border-style: ridge;
 }
 
 #sidebar {
@@ -43,6 +65,7 @@ a:link {
     height: 20px;
     background-size: cover;
     filter: brightness(0) invert(1);
+    padding-right: 2rem;
   }
 
 .icon-sidebar:hover,
